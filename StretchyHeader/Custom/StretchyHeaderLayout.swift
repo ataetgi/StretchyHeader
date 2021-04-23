@@ -18,14 +18,12 @@ class StretchyHeaderLayout: UICollectionViewFlowLayout {
                 guard let collectionView = collectionView else { return }
                 
                 let contentOffsetY = collectionView.contentOffset.y
-                print(contentOffsetY)
+//                print(contentOffsetY)
                 
                 guard contentOffsetY < 0 else { return }
                 
                 let width = collectionView.frame.width
-                
                 let height = attributes.frame.height - contentOffsetY
-                
                 
                 // header
                 attributes.frame = .init(x: 0, y: contentOffsetY, width: width, height: height)
