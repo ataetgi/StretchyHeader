@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } else {
             
             window = UIWindow()
-            window?.rootViewController = StretchyHeaderController(collectionViewLayout: UICollectionViewFlowLayout())
+            window?.rootViewController = StretchyHeaderController(collectionViewLayout: StretchyHeaderLayout())
             window?.makeKeyAndVisible()
         }
         

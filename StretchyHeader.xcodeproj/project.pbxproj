@@ -15,6 +15,8 @@
 		5F14FD092633698C004D667A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F14FD072633698C004D667A /* LaunchScreen.storyboard */; };
 		5F14FD1226336C58004D667A /* StretchyHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14FD1126336C58004D667A /* StretchyHeaderController.swift */; };
 		5F14FD182633707C004D667A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14FD172633707C004D667A /* HeaderView.swift */; };
+		5F14FD22263376CA004D667A /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14FD21263376CA004D667A /* UIView+Layout.swift */; };
+		5F14FD2926337BA5004D667A /* StretchyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14FD2826337BA5004D667A /* StretchyHeaderLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5F14FD0A2633698C004D667A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F14FD1126336C58004D667A /* StretchyHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderController.swift; sourceTree = "<group>"; };
 		5F14FD172633707C004D667A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5F14FD21263376CA004D667A /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		5F14FD2826337BA5004D667A /* StretchyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,11 @@
 			children = (
 				5F14FCFC26336989004D667A /* AppDelegate.swift */,
 				5F14FCFE26336989004D667A /* SceneDelegate.swift */,
+				5F14FD2726337B86004D667A /* Custom */,
 				5F14FD1B26337085004D667A /* View */,
 				5F14FD1426336C8F004D667A /* Controllers */,
 				5F14FD0226336989004D667A /* Main.storyboard */,
+				5F14FD25263376D2004D667A /* Extensions */,
 				5F14FD052633698C004D667A /* Assets.xcassets */,
 				5F14FD072633698C004D667A /* LaunchScreen.storyboard */,
 				5F14FD0A2633698C004D667A /* Info.plist */,
@@ -87,6 +93,22 @@
 				5F14FD172633707C004D667A /* HeaderView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5F14FD25263376D2004D667A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F14FD21263376CA004D667A /* UIView+Layout.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F14FD2726337B86004D667A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5F14FD2826337BA5004D667A /* StretchyHeaderLayout.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +183,8 @@
 			files = (
 				5F14FD182633707C004D667A /* HeaderView.swift in Sources */,
 				5F14FD1226336C58004D667A /* StretchyHeaderController.swift in Sources */,
+				5F14FD22263376CA004D667A /* UIView+Layout.swift in Sources */,
+				5F14FD2926337BA5004D667A /* StretchyHeaderLayout.swift in Sources */,
 				5F14FD0126336989004D667A /* ViewController.swift in Sources */,
 				5F14FCFD26336989004D667A /* AppDelegate.swift in Sources */,
 				5F14FCFF26336989004D667A /* SceneDelegate.swift in Sources */,

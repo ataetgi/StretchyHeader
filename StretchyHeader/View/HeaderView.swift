@@ -9,10 +9,21 @@ import UIKit
 
 class HeaderView: UICollectionReusableView {
     
+    let imageView: UIImageView = {
+        let iv = UIImageView(image: #imageLiteral(resourceName: "karsten-wurth"))
+        iv.contentMode = .scaleAspectFill
+        return iv
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         backgroundColor = .systemRed
+        
+        addSubview(imageView)
+        imageView.fillSuperview()
+
+        
     }
     
     
